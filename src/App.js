@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import VideoCard from "./VideoCard";
+
 function App() {
   return (
     <div className="app">
@@ -14,10 +15,34 @@ function App() {
       </div>
 
       <div className="app__videos">
-        <VideoCard />
-        <VideoCard />
-        <VideoCard />
-        <VideoCard />
+        <VideoCard
+          channel="agmarTorres"
+          avatarSrc="aasd"
+          song="Test song- thriller"
+          likes={950}
+          shares={30}
+        />
+        <VideoCard
+          channel="agmarTorres"
+          avatarSrc="aasd"
+          song="Test song- thriller"
+          likes={950}
+          shares={30}
+        />
+        <VideoCard
+          channel="agmarTorres"
+          avatarSrc="aasd"
+          song="Test song- thriller"
+          likes={950}
+          shares={30}
+        />
+        <VideoCard
+          channel="agmarTorres"
+          avatarSrc="aasd"
+          song="Test song- thriller"
+          likes={950}
+          shares={30}
+        />
       </div>
     </div>
   );

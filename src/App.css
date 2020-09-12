@@ -1,5 +1,6 @@
 html {
   scroll-snap-type: y mandatory;
+  background-color: black;
 }
 
 .app {
@@ -10,4 +11,9 @@ html {
 
 .app__logo {
   height: 12vh;
+}
+
+.app__videos {
+  width: 40%;
+  height: 70vh;
 }
